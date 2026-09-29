@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.zip
+*.log
+.DS_Store
+
+# 由 tools/gen_github_repos.mjs 生成的多仓库结构（各自独立 push，不随本仓库提交）
+repos/
+outputs/

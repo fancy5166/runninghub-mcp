@@ -1,0 +1,14 @@
+# 统一换行符，避免 Windows/macOS/Linux 之间产生无意义的 CRLF 差异
+# Normalize line endings so Windows/macOS/Linux don't produce noise diffs.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.zip binary
+*.tgz binary
+*.woff binary
+*.woff2 binary
